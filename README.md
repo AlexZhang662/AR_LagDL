@@ -11,7 +11,7 @@ In this example, we will show in detail the application steps of AR_LagDL model,
 
 ![image](https://github.com/user-attachments/assets/dd34bfb8-362f-4b7f-a3f4-ad13d82acf59)
 
-<img width="743" alt="微信图片_20250209104605" src="https://github.com/user-attachments/assets/db9f49ab-fc48-415a-8498-9e8ac830f822" />
+![image](https://github.com/user-attachments/assets/fbd4323e-212d-4607-860e-e9c74e4b3845)
 
 ## The fold “App Designer” contains the MATLAB's App Designer ".mlapp" document.
 ## The fold “App exe” contains AR_LagDL software, which is implemented based on MATLAB's App Designer technology and generated using MATLAB's Application Compiler package.
