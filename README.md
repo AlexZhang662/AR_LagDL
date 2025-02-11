@@ -6,7 +6,11 @@ In this example, we will show in detail the application steps of AR_LagDT model,
 
 ### @Test_series.xlsx is the test data set.
 
+
+
+
 ![image](https://github.com/user-attachments/assets/21975129-11a8-4dda-a8a0-53cfe02c8168)
+### Fig 1. Schematic diagram of each component for AR-LagDT model.
 
 ## The demo video shows the software operation process, allowing users to gain a more intuitive understanding of its usage and workflow.
 
