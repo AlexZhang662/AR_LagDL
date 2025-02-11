@@ -16,7 +16,6 @@ For the lag of interventions effect, we assume that $LE(t)$ is influenced by int
 ### Fig 1. Schematic diagram of each component for AR-LagDT model.
 
 ---
----
 
 ## The demo video shows the software operation process, allowing users to gain a more intuitive understanding of its usage and workflow.
 
