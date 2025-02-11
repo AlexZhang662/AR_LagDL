@@ -7,7 +7,9 @@ In this example, we will show in detail the application steps of AR_LagDT model,
 ### @Test_series.xlsx is the test data set.
 
 
-
+We give the expression of AR-LagDT (p,s,l_1,l_2) model:
+                                                         Y_t=φ_1 Y_(t-1)+⋯+φ_p Y_(t-p)+ε_t+LE(t).                                 
+Where Φ=[φ_1,…,φ_p ], is the coefficient of the AR part. The vector LE indicates the distributed lag impact of interventions on Y_t and is the estimation of intervention impact. In this study, our most important purpose is to calculate the value of LE that gives estimations of intervention impact. For the lag of interventions effect, we assume that LE(t), which is the value of vector LE at a specific point t, is influenced by intervention effects at the time point t and at the previous s-1 time point, i.e., LE(t)=ω_1*F(t)+⋯+ω_s*F(t-s+1).  ω_1,…,ω_s estimates the (lag) impact of intervention effect on the outcome time series. 
 
 ![image](https://github.com/user-attachments/assets/21975129-11a8-4dda-a8a0-53cfe02c8168)
 ### Fig 1. Schematic diagram of each component for AR-LagDT model.
