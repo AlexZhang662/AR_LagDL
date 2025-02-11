@@ -10,6 +10,8 @@ In this example, we will show in detail the application steps of AR_LagDT model,
 We give the expression of AR-LagDT $\left(p, s, l_{1}, l_{2}\right)$ model:
                                                          $$Y_{t}=\varphi_{1} Y_{t-1}+\cdots+\varphi_{p} Y_{t-p}+\varepsilon_{t}+L E(t).$$                          
 For the lag of interventions effect, we assume that $LE(t)$, which is the value of vector $\boldsymbol{LE}$ at a specific point $t$, is influenced by intervention effects at the time point $t$ and at the previous s-1 time point, i.e., $LE(t)=\omega_{1} * F(t)+\cdots+\omega_{s} * F(t-s+1)$.  $\omega_{1}$,…, $\omega_{s}$ estimates the (lag) impact of intervention effect on the outcome time series. 
+\pmb{\Phi}
+\mathbf{\Phi}  % 但这不会加粗希腊字母
 
 ![image](https://github.com/user-attachments/assets/21975129-11a8-4dda-a8a0-53cfe02c8168)
 ### Fig 1. Schematic diagram of each component for AR-LagDT model.
